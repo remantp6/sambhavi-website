@@ -6,7 +6,7 @@ const SecondaryButton = ({name, handleClick, btnDisabled}) => {
     <button
       onClick={handleClick}
       disabled={btnDisabled}
-      className="flex  items-center rounded-full text-lg  gap-2  py-2 px-6 bg-white text-[#72db46] hover:text-[#5fa840eb]"
+      className="flex  items-center rounded-full text-lg  gap-2  py-2 px-6 bg-white text-[#5fa840eb] shadow-lg hover:text-[#72db46] "
     >
       {name}
       <FaArrowRightLong className="bg-transparent" />
