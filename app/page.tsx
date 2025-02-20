@@ -1,13 +1,18 @@
-import Hero from '../components/Hero'
-import JuiceCategory from '../components/JuiceCategory'
-import Video from "../components/Video"
+//import Carousel from 'react-multi-carousel';
+import Hero from "../components/landingpage/Hero";
+import JuiceCategory from "../components/landingpage/JuiceCategory";
+import Video from "../components/landingpage/Video";
+import PromoBanner from '../components/landingpage/PromoBanner'
+import Testimonial from '../components/testimonial/Testimonial'
 
 export default function Home() {
   return (
-    <div className='w-full h-auto  right'>
-      <Hero/>
-      <JuiceCategory/>
-      <Video/>
-    </div>
+    <main>
+      <Hero />
+      <JuiceCategory />
+      <Video />
+      <PromoBanner/>
+      <Testimonial/>
+    </main>
   );
 }
