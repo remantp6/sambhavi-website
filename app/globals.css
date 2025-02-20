@@ -16,12 +16,14 @@
   }
 } */
 
-body {
+/* body {
   background-color: #5a9c4b;
-}
+} */
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+
